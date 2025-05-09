@@ -14,7 +14,7 @@
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: rgb(72, 72, 72);">
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm " id="navbar">
             <div class="container">
               <a class="navbar-brand" href="#">Portfolio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,10 +26,10 @@
                     <a class="nav-link active" aria-current="page" href="#">About Me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#skill">Skill</a>
+                    <a class="nav-link active" href="#skill">Skill</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link active" href="#projects">Projects</a>
                   </li>
                 </ul>
               </div>
@@ -46,15 +46,15 @@
         <!-- End Jumbotron -->
 
         <!-- Introduction -->
-        <div class="card-group">
-          <div class="card-md-3 mt-3">
+        <div class="card-group" id="card">
+          <div class="card-md-3">
             <img src="img/femi.jpeg" class="rounded-circle img-thumbnail ms-5" alt="..." style="width: 200px;">
             <div class="card-body ms-4">
               <h2 class="display-5">Femi Elice</h2>
               <p class="lead">Fresh Graduate | Excited to develop the web</p>
             </div>
           </div>
-          <div class="card pt-3 pe-5">
+          <div class="card pe-5" id="aboutme">
             <div class="card-body">
               <h2>
                 <span>About Me</span>
@@ -178,7 +178,7 @@
                 <div class="card">
                   <img src="img/img-website-resep.png" class="card-img-top" alt="project-2">
                   <div class="card-body">
-                    <p class="card-text text-center">Resep Sehat</p>
+                    <p class="card-text text-center"><a href="https://femielc.github.io/good-yum/" style="text-decoration: none; color: darkblue;">Resep Sehat</a></p>
                   </div>
                 </div>
               </div>
